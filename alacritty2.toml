@@ -1,0 +1,62 @@
+
+
+[window]
+opacity = 0.85
+blur = true  # работает в KDE + `background-blur` включён
+
+[font]
+#use_thin_strokes = true
+
+#normal = { family = "FiraCode Nerd Font", style = "Medium" }
+
+normal = { family = "FiraCode Retina", style = "Semibold" }
+bold = { family = "FiraCode Retina", style = "Bold" }
+italic = { family = "FiraCode Retina", style = "Italic" }
+bold_italic = { family = "FiraCode Retina", style = "Bold Italic" }
+size = 11.0
+
+
+
+
+[env]
+TERM = "xterm-256color"
+
+[colors.primary]
+background = "#000000"  # base00 — чёрный
+foreground = "#d0d0d0"  # base05 — светло-серый (текст)
+
+[colors.cursor]
+text = "#000000"        # base00 — текст под курсором (чёрный)
+cursor = "#d0d0d0"      # base05 — цвет самого курсора (светло-серый)
+
+[colors.selection]
+text = "#d0d0d0"        # base05 — светло-серый текст выделения
+background = "#303030"  # base02 — тёмно-серый фон выделения
+
+[colors.normal]
+black   = "#000000"     # base00
+red     = "#eb008a"     # base08
+green   = "#37b349"     # base0B
+yellow  = "#f8ca12"     # base0A
+blue    = "#3399ff"     # base0D
+magenta = "#b31e8d"     # base0E
+cyan    = "#00aabb"     # base0C
+white   = "#b0b0b0"     # base04
+
+[colors.bright]
+black   = "#505050"     # base03
+red     = "#f29333"     # base09
+green   = "#37b349"     # base0B (повтор, можно сделать ярче, если хочешь)
+yellow  = "#f8ca12"     # base0A (повтор)
+blue    = "#3399ff"     # base0D (повтор)
+magenta = "#b31e8d"     # base0E (повтор)
+cyan    = "#00aabb"     # base0C (повтор)
+white   = "#e0e0e0"     # base06
+
+
+
+#[colors.normal]
+#blue = "#0e5a94"  # сейчас такой — темноват
+
+#[colors.bright]
+#blue = "#0e5a94"  # и яркий синий совпадает с обычным
