@@ -22,43 +22,41 @@ size = 11.0
 TERM = "xterm-256color"
 
 [colors.primary]
-background = "#0a0a0a"     # чуть светлее, не глухо-чёрный
-foreground = "#dadada"     # светлый текст
+background = "#000000"  # base00 — чёрный
+foreground = "#d0d0d0"  # base05 — светло-серый (текст)
 
 [colors.cursor]
-text = "#0a0a0a"
-cursor = "#ff77ff"         # стильный розовый курсор
+text = "#000000"        # base00 — текст под курсором (чёрный)
+cursor = "#d0d0d0"      # base05 — цвет самого курсора (светло-серый)
 
 [colors.selection]
-text = "#000000"
-background = "#ffe580"     # яркое жёлтое выделение
+text = "#d0d0d0"        # base05 — светло-серый текст выделения
+background = "#303030"  # base02 — тёмно-серый фон выделения
 
 [colors.normal]
-black   = "#1a1a1a"
-red     = "#ff3399"
-green   = "#66ff66"
-yellow  = "#ffcc00"
-blue    = "#3399ff"
-magenta = "#cc33cc"
-cyan    = "#33cccc"
-white   = "#dadada"
+black   = "#000000"     # base00
+red     = "#eb008a"     # base08
+green   = "#37b349"     # base0B
+yellow  = "#f8ca12"     # base0A
+blue    = "#3399ff"     # base0D
+magenta = "#b31e8d"     # base0E
+cyan    = "#00aabb"     # base0C
+white   = "#b0b0b0"     # base04
 
 [colors.bright]
-black   = "#333333"
-red     = "#ff99cc"
-green   = "#99ff99"
-yellow  = "#fff799"
-blue    = "#99ccff"
-magenta = "#ee99ff"
-cyan    = "#99ffff"
-white   = "#ffffff"
-
-#[colors.hints]
-#start = { foreground = "0x1c1c1c", background = "0xff5fd7" }
-#end   = { foreground = "0x1c1c1c", background = "0xff5fd7" }
-
-#[colors.hints]
-#start = { foreground = "0xffffff", background = "0x005f87" }  # белый текст на насыщенном синем фоне
-#end   = { foreground = "0xffffff", background = "0x005f87" 
+black   = "#505050"     # base03
+red     = "#f29333"     # base09
+green   = "#37b349"     # base0B (повтор, можно сделать ярче, если хочешь)
+yellow  = "#f8ca12"     # base0A (повтор)
+blue    = "#3399ff"     # base0D (повтор)
+magenta = "#b31e8d"     # base0E (повтор)
+cyan    = "#00aabb"     # base0C (повтор)
+white   = "#e0e0e0"     # base06
 
 
+
+#[colors.normal]
+#blue = "#0e5a94"  # сейчас такой — темноват
+
+#[colors.bright]
+#blue = "#0e5a94"  # и яркий синий совпадает с обычным
