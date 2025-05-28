@@ -1,0 +1,64 @@
+
+
+[window]
+opacity = 0.85
+blur = true  # работает в KDE + `background-blur` включён
+
+[font]
+#use_thin_strokes = true
+
+#normal = { family = "FiraCode Nerd Font", style = "Medium" }
+
+normal = { family = "FiraCode Retina", style = "Semibold" }
+bold = { family = "FiraCode Retina", style = "Bold" }
+italic = { family = "FiraCode Retina", style = "Italic" }
+bold_italic = { family = "FiraCode Retina", style = "Bold Italic" }
+size = 11.0
+
+
+
+
+[env]
+TERM = "xterm-256color"
+
+[colors.primary]
+background = "#0a0a0a"     # чуть светлее, не глухо-чёрный
+foreground = "#dadada"     # светлый текст
+
+[colors.cursor]
+text = "#0a0a0a"
+cursor = "#ff77ff"         # стильный розовый курсор
+
+[colors.selection]
+text = "#000000"
+background = "#ffe580"     # яркое жёлтое выделение
+
+[colors.normal]
+black   = "#1a1a1a"
+red     = "#ff3399"
+green   = "#66ff66"
+yellow  = "#ffcc00"
+blue    = "#3399ff"
+magenta = "#cc33cc"
+cyan    = "#33cccc"
+white   = "#dadada"
+
+[colors.bright]
+black   = "#333333"
+red     = "#ff99cc"
+green   = "#99ff99"
+yellow  = "#fff799"
+blue    = "#99ccff"
+magenta = "#ee99ff"
+cyan    = "#99ffff"
+white   = "#ffffff"
+
+#[colors.hints]
+#start = { foreground = "0x1c1c1c", background = "0xff5fd7" }
+#end   = { foreground = "0x1c1c1c", background = "0xff5fd7" }
+
+#[colors.hints]
+#start = { foreground = "0xffffff", background = "0x005f87" }  # белый текст на насыщенном синем фоне
+#end   = { foreground = "0xffffff", background = "0x005f87" 
+
+
